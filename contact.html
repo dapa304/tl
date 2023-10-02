@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="container min-h-screen bg-[url('src/asset/image.png')] bg-center bg-cover px-28 py-5 relative">
+    <nav class="flex items-center">
+      <img src="src/asset/logo.png" class="w-40 cursor-pointer" >
+      <ul class="flex-1 text-center">
+        <li class="list-none inline-block px-5"><a href="index.html" class="no-underline text-white px-2">home</a></li>
+        <li class="list-none inline-block px-5"><a href="about.html" class="no-underline text-white px-2">About</a></li>
+        <li class="list-none inline-block px-5"><a href="Feature.html" class="no-underline text-white px-2">Feature</a></li>
+        <li class="list-none inline-block px-5"><a href="contact.html" class="no-underline text-white px-2">Contact</a></li>
+      </ul>
+      <img src="src/asset/cart.png" class="w-8 cursor-pointer">
+    </nav>
+
+    <div class="min-h-screen  py-6 flex flex-col justify-center sm:py-12">
+      <div class="relative py-3 sm:max-w-xl sm:mx-auto mt-10">
+        <div class="absolute inset-0 bg-gray-200 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+        <div class="relative px-4 py-10 bg-gray-400 shadow-lg sm:rounded-3xl sm:p-20">
+          <div class="max-w-md mx-auto">
+            <div>
+             <h1 class="text-3xl font-extrabold">Contact</h1>
+             <p class="mt-3">I’m interested in freelance opportunities – especially ambitious or large projects. However, if you just want to say hi or have a question, don’t hesitate to contact me.</p>
+             <hr class="mt-3 border-gray-300">
+            </div>
+            <div class="divide-y divide-gray-200">
+              <form class="pt-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7 -mb-8">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Name <span class="text-red-500">*</span>
+                </label>
+                <input required class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Name">
+                
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Email <span class="text-red-500">*</span>
+                </label>
+                <input required class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="email" placeholder="Email">
+                
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Message <span class="text-red-500">*</span>
+                </label>
+                <textarea required class="resize-y py-3 px-4 border focus:outline-none rounded-md w-full bg-gray-200" placeholder="Your message..."></textarea>
+                
+                <div class="flex items-end justify-end">
+                  <button class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300
+                  hover:text-white duration-900 hover:border border border-transparent">
+                  Send
+                </button>
+                
+                </div>
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="p-8 text-slate-500 bg-black">
+    <section class="mb-6 lg:flex lg:justify-between mt-10">
+      <div class="text-center flex flex-col items-center lg:text-left lg:items-start">
+        <a href="#" class="block mb-4">
+          <img class="block h-8" src="src/asset/logo.png"
+               alt="Workflow">
+        </a>
+        <p class="mb-4">Making the world a better place through <br> constructing elegant hierarchies.</p>
+        <span class="space-x-6">
+          <a href="#" class=""><i class="fab fa-facebook"></i></a>
+          <a href="#" class=""><i class="fab fa-instagram"></i></a>
+          <a href="#" class=""><i class="fab fa-twitter"></i></a>
+        </span>
+      </div>
+      <ul class="hidden md:flex md:justify-around lg:flex-auto">
+        <li>
+          <h5 class="text-slate-400 mb-3">SOLUTIONS</h5>
+          <ul class="space-y-3">
+            <li><a href="#" class="">Marketing</a></li>
+            <li><a href="#" class="">Analytics</a></li>
+            <li><a href="#" class="">Commerce</a></li>
+            <li><a href="#" class="">Insights</a></li>
+          </ul>
+        </li>
+        <li>
+          <h5 class="text-slate-400 mb-3">SUPPORT</h5>
+          <ul class="space-y-3">
+            <li><a href="#" class="">Pricing</a></li>
+            <li><a href="#" class="">Documentation</a></li>
+            <li><a href="#" class="">Guides</a></li>
+            <li><a href="#" class="">API Status</a></li>
+          </ul>
+        </li>
+        <li>
+          <h5 class="text-slate-400 mb-3">COMPANY</h5>
+          <ul class="space-y-3">
+            <li><a href="#" class="">About</a></li>
+            <li><a href="#" class="">Blog</a></li>
+            <li><a href="#" class="">Jobs</a></li>
+            <li><a href="#" class="">Press</a></li>
+            <li><a href="#" class="">Partners</a></li>
+          </ul>
+        </li>
+        <li>
+          <h5 class="text-slate-400 mb-3">LEGAL</h5>
+          <ul class="space-y-3">
+            <li><a href="#" class="">Claim</a></li>
+            <li><a href="#" class="">Privacy</a></li>
+            <li><a href="#" class="">Terms</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <hr>
+    <h6 class="text-center mt-10"> © 2023 Daffa, Inc. All rights reserved.</h6>
+  </footer>
+</body>
+</html>
